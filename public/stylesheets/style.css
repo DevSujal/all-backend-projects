@@ -1,0 +1,8 @@
+.container {
+    text-align: center;
+    margin: 10px 5% 0 5%;
+    color: red;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+ }

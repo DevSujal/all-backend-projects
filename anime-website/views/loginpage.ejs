@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I don't know</title>
+    <link rel="stylesheet" href="/stylesheets/loginpage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY5Vl0nXbPPIcyZlp+OqOu1tj5nn0CIm1cFng3"
+      crossorigin="anonymous"
+    />
+    <link rel="website icon" type = "png" href="https://th.bing.com/th/id/OIP.4dcJ_AHTJ81dikKbJ_xBtgHaGw?rs=1&pid=ImgDetMain">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h3>welcome</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          eaque numquam pariatur eum, enim, molestias saepe tempora quae omnis
+          aspernatur maiores quo commodi sunt consectetur corrupti odit sed,
+          voluptate nihil?
+        </p>
+      </div>
+      <div class="right">
+        <form action="/login" method="post">
+          <h2>User Login</h2>
+          <input type="text" name="username" placeholder="username" />
+
+          <div class="input-box">
+            <input type="password" name="password" placeholder="password" id="password" style="width: 100%; padding : 10px 10px;"/>
+            <img src="/images/eye-close.png" id="icon">
+          </div>
+
+          <a href="/registerpage">register?</a>
+          <button type="submit">login</button>
+        </form>
+      </div>
+    </div>
+    <script src="/javascripts/loginpage.js"></script>
+  </body>
+</html>
